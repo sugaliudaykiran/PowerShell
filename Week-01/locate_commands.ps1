@@ -16,3 +16,7 @@ Get-Command -Verb Set -Noun File*
 # Because the domain you work in is file management, you specified File as the noun. If you know what you want to do within that domain, you can specify -Verb parameters. By using one or possibly two parameters, you can quickly find the cmdlet you need.
 
 
+Get-Help -Name Get-Help
+
+Update-Help -UICulture en-US -Verbose
+
