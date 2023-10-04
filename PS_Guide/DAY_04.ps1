@@ -42,3 +42,12 @@ Start-Sleep -s 5
 
 Start-Sleep -M 5
 
+# Read-Host Cmdlet :=
+
+$Choice = Read-Host "Please Enter your choice: "
+
+Write-Host $Choice
+
+Write-Output $Choice
+
+
